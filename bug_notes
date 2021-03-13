@@ -9,9 +9,24 @@ Declared variable 'LOGGER' changed to a static varible so that it can be used on
 
 2)electronic-payments-domain
 Error
--@PreInsert class is not found. This class does not exists in the hibernate persistence library hence the error.
+-@PreInsert annotation is not found. This class does not exists in the hibernate persistence library hence the error.
 Solution
-
 Replaced @PreInsert with @PrePersist
+
+3) electronic-payments-domain
+Error
+Named query is incorrect. 
+Solution
+When writing a named query, the select query should include the correct classname. Replaced Request with SubscriberRequest.
+
+4)electronic-business-payments
+Error1: Missing econet-utils dependency
+Error2: Sytanx error when calling super method inside constructor.
+
+Solution
+Imported the econet-utils dependency in the pom file.
+Corrected the syntanx error.
+
+5)
 
 
