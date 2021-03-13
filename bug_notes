@@ -5,3 +5,4 @@ CASSAVA ERROR REPORT
 -LOGGER ERROR
 Non-static field 'LOGGER' cannot be referenced from a static context
 Solution
+Declared variable 'LOGGER' changed to a static varible so that it can be used on the static methods
