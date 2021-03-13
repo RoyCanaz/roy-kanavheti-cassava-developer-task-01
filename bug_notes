@@ -1,0 +1,7 @@
+
+
+CASSAVA ERROR REPORT
+1)econet-utils
+-LOGGER ERROR
+Non-static field 'LOGGER' cannot be referenced from a static context
+Solution
