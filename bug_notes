@@ -27,6 +27,15 @@ Solution
 Imported the econet-utils dependency in the pom file.
 Corrected the syntanx error.
 
-5)
+5)electronic-business-payments
+Error1: Used subscriberRequestDao.persist() to save SubscriberRequest. The persist() method is not defined in subscriberRequestDao repository.
+Error2: Used subscriberRequestDao.update() to update SubscriberRequest. The update() method is not defined in subscriberRequestDao repository.
 
+Solution
+Used the save() of subscriberRequestDao repository to save/insert and update SubscriberRequest.
+
+6)electronic-business-payments
+Error1: persist method not found
+Error2: update methos not found
+ 
 
